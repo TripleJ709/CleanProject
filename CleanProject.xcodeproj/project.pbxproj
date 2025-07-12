@@ -16,6 +16,8 @@
 		89962EBB2E210143001AD1B5 /* UserListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EBA2E21013E001AD1B5 /* UserListItem.swift */; };
 		89962EBD2E210290001AD1B5 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EBC2E210285001AD1B5 /* NetworkError.swift */; };
 		89962EBF2E21039F001AD1B5 /* CoreDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EBE2E21039A001AD1B5 /* CoreDataError.swift */; };
+		89962EC12E2248A2001AD1B5 /* UserListUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EC02E224898001AD1B5 /* UserListUsecase.swift */; };
+		89962EC42E2249F1001AD1B5 /* UserRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EC32E2249E5001AD1B5 /* UserRepositoryProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		89962EBA2E21013E001AD1B5 /* UserListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListItem.swift; sourceTree = "<group>"; };
 		89962EBC2E210285001AD1B5 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		89962EBE2E21039A001AD1B5 /* CoreDataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataError.swift; sourceTree = "<group>"; };
+		89962EC02E224898001AD1B5 /* UserListUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUsecase.swift; sourceTree = "<group>"; };
+		89962EC32E2249E5001AD1B5 /* UserRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		89962EB72E21011E001AD1B5 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				89962EC22E2249CD001AD1B5 /* UserRepositoryProtocol */,
 				89962EB92E21012B001AD1B5 /* UseCase */,
 				89962EB82E210121001AD1B5 /* Entity */,
 			);
@@ -96,8 +101,17 @@
 		89962EB92E21012B001AD1B5 /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				89962EC02E224898001AD1B5 /* UserListUsecase.swift */,
 			);
 			path = UseCase;
+			sourceTree = "<group>";
+		};
+		89962EC22E2249CD001AD1B5 /* UserRepositoryProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				89962EC32E2249E5001AD1B5 /* UserRepositoryProtocol.swift */,
+			);
+			path = UserRepositoryProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +188,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89962EC42E2249F1001AD1B5 /* UserRepositoryProtocol.swift in Sources */,
 				89962EB32E20FE59001AD1B5 /* AppDelegate.swift in Sources */,
+				89962EC12E2248A2001AD1B5 /* UserListUsecase.swift in Sources */,
 				89962EB42E20FE59001AD1B5 /* SceneDelegate.swift in Sources */,
 				89962EB52E20FE59001AD1B5 /* ViewController.swift in Sources */,
 				89962EBB2E210143001AD1B5 /* UserListItem.swift in Sources */,
