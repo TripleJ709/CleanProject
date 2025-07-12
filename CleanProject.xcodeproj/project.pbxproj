@@ -69,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				89962EDA2E225AC3001AD1B5 /* Secrets.plist */,
+				89962EA52E20FE59001AD1B5 /* AppDelegate.swift */,
+				89962EAC2E20FE59001AD1B5 /* SceneDelegate.swift */,
 				89962EAE2E20FE59001AD1B5 /* CleanProject */,
 				89962E8E2E20FE4C001AD1B5 /* Products */,
 			);
@@ -86,12 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				89962EB72E21011E001AD1B5 /* Domain */,
-				89962EA52E20FE59001AD1B5 /* AppDelegate.swift */,
 				89962EA62E20FE59001AD1B5 /* Assets.xcassets */,
 				89962EA72E20FE59001AD1B5 /* Info.plist */,
 				89962EA92E20FE59001AD1B5 /* LaunchScreen.storyboard */,
 				89962EAB2E20FE59001AD1B5 /* Main.storyboard */,
-				89962EAC2E20FE59001AD1B5 /* SceneDelegate.swift */,
 				89962EAD2E20FE59001AD1B5 /* ViewController.swift */,
 			);
 			path = CleanProject;
