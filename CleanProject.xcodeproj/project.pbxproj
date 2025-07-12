@@ -27,6 +27,9 @@
 		89962ED62E224FC4001AD1B5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 89962ED52E224FC4001AD1B5 /* Alamofire */; };
 		89962ED82E224FC4001AD1B5 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 89962ED72E224FC4001AD1B5 /* AlamofireDynamic */; };
 		89962EDB2E225AC3001AD1B5 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89962EDA2E225AC3001AD1B5 /* Secrets.plist */; };
+		89962EDF2E22EDCA001AD1B5 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EDE2E22EDC3001AD1B5 /* UserSession.swift */; };
+		89962EE12E22EF29001AD1B5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EE02E22EF24001AD1B5 /* NetworkManager.swift */; };
+		89962EE32E22F05C001AD1B5 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EE22E22F055001AD1B5 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		89962EC02E224898001AD1B5 /* UserListUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUsecase.swift; sourceTree = "<group>"; };
 		89962EC32E2249E5001AD1B5 /* UserRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryProtocol.swift; sourceTree = "<group>"; };
 		89962EDA2E225AC3001AD1B5 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		89962EDE2E22EDC3001AD1B5 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		89962EE02E22EF24001AD1B5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		89962EE22E22F055001AD1B5 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,7 @@
 				89962EDA2E225AC3001AD1B5 /* Secrets.plist */,
 				89962EA52E20FE59001AD1B5 /* AppDelegate.swift */,
 				89962EAC2E20FE59001AD1B5 /* SceneDelegate.swift */,
+				89962EAD2E20FE59001AD1B5 /* ViewController.swift */,
 				89962EAE2E20FE59001AD1B5 /* CleanProject */,
 				89962E8E2E20FE4C001AD1B5 /* Products */,
 			);
@@ -87,12 +94,13 @@
 		89962EAE2E20FE59001AD1B5 /* CleanProject */ = {
 			isa = PBXGroup;
 			children = (
+				89962EE22E22F055001AD1B5 /* Secrets.swift */,
+				89962EDC2E22EDAF001AD1B5 /* Data */,
 				89962EB72E21011E001AD1B5 /* Domain */,
 				89962EA62E20FE59001AD1B5 /* Assets.xcassets */,
 				89962EA72E20FE59001AD1B5 /* Info.plist */,
 				89962EA92E20FE59001AD1B5 /* LaunchScreen.storyboard */,
 				89962EAB2E20FE59001AD1B5 /* Main.storyboard */,
-				89962EAD2E20FE59001AD1B5 /* ViewController.swift */,
 			);
 			path = CleanProject;
 			sourceTree = "<group>";
@@ -131,6 +139,23 @@
 				89962EC32E2249E5001AD1B5 /* UserRepositoryProtocol.swift */,
 			);
 			path = UserRepositoryProtocol;
+			sourceTree = "<group>";
+		};
+		89962EDC2E22EDAF001AD1B5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				89962EDD2E22EDBA001AD1B5 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		89962EDD2E22EDBA001AD1B5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				89962EE02E22EF24001AD1B5 /* NetworkManager.swift */,
+				89962EDE2E22EDC3001AD1B5 /* UserSession.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,12 +249,15 @@
 			files = (
 				89962EC42E2249F1001AD1B5 /* UserRepositoryProtocol.swift in Sources */,
 				89962EB32E20FE59001AD1B5 /* AppDelegate.swift in Sources */,
+				89962EE12E22EF29001AD1B5 /* NetworkManager.swift in Sources */,
 				89962EC12E2248A2001AD1B5 /* UserListUsecase.swift in Sources */,
 				89962EB42E20FE59001AD1B5 /* SceneDelegate.swift in Sources */,
 				89962EB52E20FE59001AD1B5 /* ViewController.swift in Sources */,
 				89962EBB2E210143001AD1B5 /* UserListItem.swift in Sources */,
+				89962EDF2E22EDCA001AD1B5 /* UserSession.swift in Sources */,
 				89962EBD2E210290001AD1B5 /* NetworkError.swift in Sources */,
 				89962EBF2E21039F001AD1B5 /* CoreDataError.swift in Sources */,
+				89962EE32E22F05C001AD1B5 /* Secrets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
