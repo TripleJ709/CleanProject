@@ -18,6 +18,15 @@
 		89962EBF2E21039F001AD1B5 /* CoreDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EBE2E21039A001AD1B5 /* CoreDataError.swift */; };
 		89962EC12E2248A2001AD1B5 /* UserListUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EC02E224898001AD1B5 /* UserListUsecase.swift */; };
 		89962EC42E2249F1001AD1B5 /* UserRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EC32E2249E5001AD1B5 /* UserRepositoryProtocol.swift */; };
+		89962EC72E224F52001AD1B5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 89962EC62E224F52001AD1B5 /* SnapKit */; };
+		89962EC92E224F52001AD1B5 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 89962EC82E224F52001AD1B5 /* SnapKit-Dynamic */; };
+		89962ECC2E224F93001AD1B5 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 89962ECB2E224F93001AD1B5 /* RxCocoa */; };
+		89962ECE2E224F93001AD1B5 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 89962ECD2E224F93001AD1B5 /* RxRelay */; };
+		89962ED02E224F93001AD1B5 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 89962ECF2E224F93001AD1B5 /* RxSwift */; };
+		89962ED32E224FB3001AD1B5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 89962ED22E224FB3001AD1B5 /* Kingfisher */; };
+		89962ED62E224FC4001AD1B5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 89962ED52E224FC4001AD1B5 /* Alamofire */; };
+		89962ED82E224FC4001AD1B5 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 89962ED72E224FC4001AD1B5 /* AlamofireDynamic */; };
+		89962EDB2E225AC3001AD1B5 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89962EDA2E225AC3001AD1B5 /* Secrets.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +43,7 @@
 		89962EBE2E21039A001AD1B5 /* CoreDataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataError.swift; sourceTree = "<group>"; };
 		89962EC02E224898001AD1B5 /* UserListUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUsecase.swift; sourceTree = "<group>"; };
 		89962EC32E2249E5001AD1B5 /* UserRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryProtocol.swift; sourceTree = "<group>"; };
+		89962EDA2E225AC3001AD1B5 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89962ED32E224FB3001AD1B5 /* Kingfisher in Frameworks */,
+				89962ED62E224FC4001AD1B5 /* Alamofire in Frameworks */,
+				89962ECC2E224F93001AD1B5 /* RxCocoa in Frameworks */,
+				89962EC72E224F52001AD1B5 /* SnapKit in Frameworks */,
+				89962ED02E224F93001AD1B5 /* RxSwift in Frameworks */,
+				89962ED82E224FC4001AD1B5 /* AlamofireDynamic in Frameworks */,
+				89962ECE2E224F93001AD1B5 /* RxRelay in Frameworks */,
+				89962EC92E224F52001AD1B5 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +68,7 @@
 		89962E842E20FE4C001AD1B5 = {
 			isa = PBXGroup;
 			children = (
+				89962EDA2E225AC3001AD1B5 /* Secrets.plist */,
 				89962EAE2E20FE59001AD1B5 /* CleanProject */,
 				89962E8E2E20FE4C001AD1B5 /* Products */,
 			);
@@ -131,6 +150,14 @@
 			);
 			name = CleanProject;
 			packageProductDependencies = (
+				89962EC62E224F52001AD1B5 /* SnapKit */,
+				89962EC82E224F52001AD1B5 /* SnapKit-Dynamic */,
+				89962ECB2E224F93001AD1B5 /* RxCocoa */,
+				89962ECD2E224F93001AD1B5 /* RxRelay */,
+				89962ECF2E224F93001AD1B5 /* RxSwift */,
+				89962ED22E224FB3001AD1B5 /* Kingfisher */,
+				89962ED52E224FC4001AD1B5 /* Alamofire */,
+				89962ED72E224FC4001AD1B5 /* AlamofireDynamic */,
 			);
 			productName = CleanProject;
 			productReference = 89962E8D2E20FE4C001AD1B5 /* CleanProject.app */;
@@ -160,6 +187,12 @@
 			);
 			mainGroup = 89962E842E20FE4C001AD1B5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				89962EC52E224F52001AD1B5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				89962ECA2E224F93001AD1B5 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				89962ED12E224FB3001AD1B5 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				89962ED42E224FC4001AD1B5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 89962E8E2E20FE4C001AD1B5 /* Products */;
 			projectDirPath = "";
@@ -175,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89962EDB2E225AC3001AD1B5 /* Secrets.plist in Resources */,
 				89962EAF2E20FE59001AD1B5 /* Assets.xcassets in Resources */,
 				89962EB12E20FE59001AD1B5 /* LaunchScreen.storyboard in Resources */,
 				89962EB22E20FE59001AD1B5 /* Main.storyboard in Resources */,
@@ -418,6 +452,84 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		89962EC52E224F52001AD1B5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		89962ECA2E224F93001AD1B5 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+		89962ED12E224FB3001AD1B5 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+		89962ED42E224FC4001AD1B5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		89962EC62E224F52001AD1B5 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89962EC52E224F52001AD1B5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		89962EC82E224F52001AD1B5 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89962EC52E224F52001AD1B5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		89962ECB2E224F93001AD1B5 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89962ECA2E224F93001AD1B5 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		89962ECD2E224F93001AD1B5 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89962ECA2E224F93001AD1B5 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		89962ECF2E224F93001AD1B5 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89962ECA2E224F93001AD1B5 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		89962ED22E224FB3001AD1B5 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89962ED12E224FB3001AD1B5 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		89962ED52E224FC4001AD1B5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89962ED42E224FC4001AD1B5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		89962ED72E224FC4001AD1B5 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89962ED42E224FC4001AD1B5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89962E852E20FE4C001AD1B5 /* Project object */;
 }
