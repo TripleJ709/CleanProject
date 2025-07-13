@@ -30,6 +30,7 @@
 		89962EDF2E22EDCA001AD1B5 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EDE2E22EDC3001AD1B5 /* UserSession.swift */; };
 		89962EE12E22EF29001AD1B5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EE02E22EF24001AD1B5 /* NetworkManager.swift */; };
 		89962EE32E22F05C001AD1B5 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EE22E22F055001AD1B5 /* Secrets.swift */; };
+		89962EE52E237C82001AD1B5 /* UserNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89962EE42E237C6C001AD1B5 /* UserNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		89962EDE2E22EDC3001AD1B5 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
 		89962EE02E22EF24001AD1B5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		89962EE22E22F055001AD1B5 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		89962EE42E237C6C001AD1B5 /* UserNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		89962EDD2E22EDBA001AD1B5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				89962EE42E237C6C001AD1B5 /* UserNetwork.swift */,
 				89962EE02E22EF24001AD1B5 /* NetworkManager.swift */,
 				89962EDE2E22EDC3001AD1B5 /* UserSession.swift */,
 			);
@@ -256,6 +259,7 @@
 				89962EBB2E210143001AD1B5 /* UserListItem.swift in Sources */,
 				89962EDF2E22EDCA001AD1B5 /* UserSession.swift in Sources */,
 				89962EBD2E210290001AD1B5 /* NetworkError.swift in Sources */,
+				89962EE52E237C82001AD1B5 /* UserNetwork.swift in Sources */,
 				89962EBF2E21039F001AD1B5 /* CoreDataError.swift in Sources */,
 				89962EE32E22F05C001AD1B5 /* Secrets.swift in Sources */,
 			);
