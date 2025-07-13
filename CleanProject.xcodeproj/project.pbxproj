@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		894E8BA22E2388FC006952B4 /* CleanProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 894E8BA02E2388FC006952B4 /* CleanProject.xcdatamodeld */; };
+		894E8BA52E239141006952B4 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E8BA42E23913B006952B4 /* UserRepository.swift */; };
 		89962EAF2E20FE59001AD1B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89962EA62E20FE59001AD1B5 /* Assets.xcassets */; };
 		89962EB12E20FE59001AD1B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89962EA92E20FE59001AD1B5 /* LaunchScreen.storyboard */; };
 		89962EB22E20FE59001AD1B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89962EAB2E20FE59001AD1B5 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		894E8BA12E2388FC006952B4 /* CleanProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CleanProject.xcdatamodel; sourceTree = "<group>"; };
+		894E8BA42E23913B006952B4 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		89962E8D2E20FE4C001AD1B5 /* CleanProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89962EA52E20FE59001AD1B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89962EA62E20FE59001AD1B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		894E8BA32E23912F006952B4 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				894E8BA42E23913B006952B4 /* UserRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		89962E842E20FE4C001AD1B5 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +167,7 @@
 		89962EDC2E22EDAF001AD1B5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				894E8BA32E23912F006952B4 /* Repository */,
 				89962EE92E2383A0001AD1B5 /* CoreData */,
 				89962EDD2E22EDBA001AD1B5 /* Network */,
 			);
@@ -276,6 +287,7 @@
 				89962EC12E2248A2001AD1B5 /* UserListUsecase.swift in Sources */,
 				89962EB42E20FE59001AD1B5 /* SceneDelegate.swift in Sources */,
 				89962EB52E20FE59001AD1B5 /* ViewController.swift in Sources */,
+				894E8BA52E239141006952B4 /* UserRepository.swift in Sources */,
 				89962EBB2E210143001AD1B5 /* UserListItem.swift in Sources */,
 				89962EDF2E22EDCA001AD1B5 /* UserSession.swift in Sources */,
 				89962EEB2E2383AF001AD1B5 /* UserCoreData.swift in Sources */,
