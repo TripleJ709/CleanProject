@@ -21,7 +21,7 @@ public struct UserCoreData: UserCoreDataProtocol {
     }
     
     public func getFavoritUsers() -> Result<[UserListItem], CoreDataError> {
-        let fetchRequest: NSFetchRequest<FavoriteUser> = FavoriteUser.fetchRequest()
+        let fetchRequest: NSFetchRequest<FavoriteUser123123> = FavoriteUser123123.fetchRequest()
         do {
             let result = try viewContext.fetch(fetchRequest)
             let userList: [UserListItem] = result.compactMap { favoriteUser in
@@ -51,7 +51,7 @@ public struct UserCoreData: UserCoreDataProtocol {
     }
     
     public func deleteFavoritUser(userID: Int) -> Result<Bool, CoreDataError> {
-        let fetchRequest: NSFetchRequest<FavoriteUser> = FavoriteUser.fetchRequest()
+        let fetchRequest: NSFetchRequest<FavoriteUser123123> = FavoriteUser123123.fetchRequest()
         fetchRequest.predicate = NSPredicate(format: "id == %d", userID)
         
         do {
